@@ -8,3 +8,38 @@ textarea {
   min-height: 250px;
   padding: 20px;
 }
+
+.buttons {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.buttons > .editor-button {
+  border: 0;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: 1px hsl(0, 0%, 70%) solid;
+  cursor: pointer;
+  transition: background 200ms ease;
+}
+
+.buttons > .editor-button:hover {
+  background: hsl(0, 0%, 80%);
+}
+
+#button-bold {
+  font-weight: 700;
+}
+
+#button-italic {
+  font-style: italic;
+}
+
+#button-underline {
+  text-decoration: underline;
+}
+
+#rendered-markdown p {
+  white-space: pre-wrap;
+}

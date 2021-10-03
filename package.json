@@ -1,0 +1,22 @@
+{
+  "name": "markdown-editor",
+  "version": "1.0.0",
+  "description": "A WYSIWYG editor for markdown",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobbroughton/Markdown-Editor.git"
+  },
+  "author": "Jacob Broughton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacobbroughton/Markdown-Editor/issues"
+  },
+  "homepage": "https://github.com/jacobbroughton/Markdown-Editor#readme",
+  "dependencies": {
+    "marked": "^3.0.4"
+  }
+}
