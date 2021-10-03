@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+  min-height: 250px;
+  padding: 20px;
+}
