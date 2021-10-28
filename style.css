@@ -1,5 +1,10 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  padding: 10px;
 }
 
 textarea {
@@ -40,6 +45,20 @@ textarea {
   text-decoration: underline;
 }
 
+#rendered-markdown {
+  padding: 20px;
+}
+
 #rendered-markdown p {
   white-space: pre-wrap;
+}
+
+#rendered-markdown blockquote {
+  padding: 5px;
+  background: hsl(0, 0%, 80%);
+}
+
+#fake-textarea {
+  height: 200px;
+  width: 100%;
 }
